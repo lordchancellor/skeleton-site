@@ -1,0 +1,21 @@
+//MIXINS
+
+@mixin marginX($val) {
+    margin-left: $val;
+    margin-right: $val;
+}
+
+@mixin marginY($val) {
+    margin-bottom: $val;
+    margin-top: $val;
+}
+
+@mixin paddingX($val) {
+    padding-left: $val;
+    padding-right: $val;
+}
+
+@mixin paddingY($val) {
+    padding-bottom: $val;
+    padding-top: $val;
+}

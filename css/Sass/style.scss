@@ -2,6 +2,9 @@
 ** Primary Stylesheet for Sandbox 3.0 **
 ***************************************/
 
-@import 'palette';
-@import 'mixins';
-@import 'global';
+//MODULES
+@import 'modules/palette';
+@import 'modules/mixins';
+
+//PARTIALS
+@import 'partials/global';
